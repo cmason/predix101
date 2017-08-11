@@ -1,8 +1,6 @@
-___
-
 # Predix 101
 
-___
+---
 
 # What is Predix?
 
