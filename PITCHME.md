@@ -142,3 +142,148 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 ---
 
+# Asset Data Service
+
+* REST APIs for asset modeling
+* CRUD operations on asset model data
+* Define asset properties as well as relationships
+* Quickly retrieve large amounts of asset data
+
+---
+
+# Time Series
+
+* sequence of data points collected at set time intervals
+* quick ingest, store, and analyze time series data
+* indexing for quick retrieval
+* millisecond data point precision
+* horizontal scalability
+* High availability access & query via HTTP
+
+---
+
+# Blobstore
+
+* Securely store large byte arrays
+* Store large amounts of persistent data (images, video, etc)
+* S3 API compatible / SDK
+* Scalable, reliable, high availability
+* Blobs can be accessed by the app in a file-like stream
+* Retrieve any file type
+
+---
+
+# Database as a Service
+
+* PostgreSQL
+* backups
+* Point In Time Recovery (PITR)
+* Encryption at rest
+
+---
+
+# Redis - Key-Value Store
+
+* Fast, in-memory key value datastor
+* Non-relational, open-source, and horizontally scalable
+* Supports most datatypes, data replication, and save data on disk
+* Used mainly in caching and message-queues
+
+---
+
+# RabbitMQ
+
+* Persistent, reliable messaging between applications, components & devices
+* Multi language support (Java, Ruby, Python, etc)
+* Exchanges supported:
+  * Built-in direct
+  * Fanout
+  * Topic
+  * Header exchange types
+
+---
+
+# Analytics Framework
+
+* Validate and perform test executions of the analytic
+* Specify a taxonomy
+* Integrate analytics in the cloud with your custom app
+* Support elastic execution using the Job Scheduler
+* Create/Manage rules around an orchestration or individual analytic
+* Retrieve a history of scheduled executions
+* [Analytics Catalog](https://www.predix.io/catalog/analytics)
+
+---
+
+# Predix UI
+
+![Predix UI](assets/predixui.png)
+
+---
+
+# Predix WebApp Starter
+
+Polymer based web application starter kit aimed at accelerating Predix UI application development.
+
+[WebApp Starter](https://github.com/predixdev/predix-webapp-starter)
+
+* Front end components built on Polymer
+* Back end is NodeJS/Express
+
+
+
+---
+
+# Predix UI Catalog
+
+UI components to quickly create web applications.
+
+* https://predix-ui.com
+* CSS - Sass modules (Include buttons, colors, layout, and typography)
+* 40+ web components for UI/UX development
+* GitHUb repos for each component
+
+---
+
+# Px Tools
+
+The Px Component Generator is a starting point for building custom UI components
+
+---
+
+# Views Service
+
+Views service stores all the visual information available in a web application,
+such as the state and layout of card and deck objects or relationship information
+between card and deck objects.
+
+---
+
+# Reference App
+
+The RMD app monitors machine operations, reports irregularities and analyzes patterns of behavior and performance over time
+
+---
+
+# Services Used
+
+* Asset
+* Analytics
+* Time Series
+* UAA
+* Predix Machine
+* Data ingestion
+
+---
+
+# Components Used
+
+* Contextual Dashboard
+* Data grid
+* Time-series
+
+---
+
+# RMD Reference App
+
+[RMD](https://rmd-ref-app.run.aws-usw02-pr.ice.predix.io/#/rmd)
