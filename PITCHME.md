@@ -35,7 +35,7 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 ---
 
-# Predix Components
+# Predix Primary Components
 
 * Predix Machine
 * Predix Cloud
@@ -44,4 +44,17 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 ---
 
 ![Components](assets/PredixComponents.png)
+
+---
+
+# Predix Machine
+
+* Device-independent software used to gather data and push it to the cloud
+* Installed on gateways, industrial controllers, and sensors
+* Responsible for communicating with the industrial asset and Predix cloud
+* Can run local applications, such as edge analytics
+* Uses OSGi framework
+
+
+---
 
