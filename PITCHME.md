@@ -7,11 +7,10 @@
 Predix is software optimized for building and running industrial internet applications.
 
 Predix is a Platform-as-a-Service (PaaS) that helps companies:
-
 * Capture and analyze large amounts of industrial data
 * Create a system-wide view of assets
 * Quickly develop and deploy industrial apps
-* Leverate and ecosystem of services built and maintained be GE and partners
+* Leverage an ecosystem of services built and maintained by GE and partners
 
 ---
 
