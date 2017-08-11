@@ -2,7 +2,7 @@
 
 ---
 
-# What is Predix?
+## What is Predix?
 
 Predix is software optimized for building and running industrial internet applications.
 
