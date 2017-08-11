@@ -1,1 +1,32 @@
 # Predix 101
+
+___
+
+# What is Predix?
+
+Predix is software optimized for building and running industrial internet applications.
+
+Predix is a Platform-as-a-Service (PaaS) that helps companies:
+
+* Capture and analyze large amounts of industrial data
+* Create a system-wide view of assets
+* Quickly develop and deploy industrial apps
+* Leverate and ecosystem of services built and maintained be GE and partners
+
+---
+
+# What types of applications run on Predix?
+
+* Monitoring of industrial equipment
+* Predictive analysis
+* Economic optimizations of assets
+* Process automation
+
+---
+
+# Application qualities
+
+* Ingest machine and sensor generated data
+* Provide insights using analytics
+* Manage information access
+* \* Not intended for real-time (sub-second) systems
