@@ -37,4 +37,11 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 # Predix Components
 
+* Predix Machine
+* Predix Cloud
+* Predix Services
+
+---
+
 ![Components](assets/PredixComponents.png)
+
