@@ -10,7 +10,7 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 * Capture and analyze large amounts of industrial data
 * Create a system-wide view of assets
 * Quickly develop and deploy industrial apps
-* Leverage an ecosystem of services built and maintained by GE and partners
+* Leverage services built and maintained by GE and partners
 
 ---
 
@@ -48,12 +48,11 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 # Predix Machine
 
-* Device-independent software used to gather data and push it to the cloud
-* Installed on gateways, industrial controllers, and sensors
-* Responsible for communicating with the industrial asset and Predix cloud
+* Gather data and push it to the cloud
+* Runs on gateways, industrial controllers, and sensors
+* Responsible for communicating with the asset and Predix cloud
 * Can run local applications, such as edge analytics
-* Uses OSGi framework
-* Java only
+* Uses OSGi framework (Java only)
 * Hardware agnostic, runs on anything that supports Linux or Windows
 * Communicates to cloud over web sockets
 
@@ -115,11 +114,18 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 # Security Services
 
+* UAA - User Account & Authentication Service
+* ACS - Access Control Services
+
+---
+
 ### UAA - User Account & Authentication Service
 
 * authorize apps to act on behalf of users
 * authenticate users
 * can integrate with 3rd-party identity providers for SSO
+
+---
 
 ### ACS - Access Control Services
 
@@ -183,7 +189,7 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 # Redis - Key-Value Store
 
-* Fast, in-memory key value datastor
+* Fast, in-memory key value datastore
 * Non-relational, open-source, and horizontally scalable
 * Supports most datatypes, data replication, and save data on disk
 * Used mainly in caching and message-queues
@@ -202,7 +208,7 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 
 ---
 
-# Analytics Framework
+### Analytics Framework
 
 * Validate and perform test executions of the analytic
 * Specify a taxonomy
