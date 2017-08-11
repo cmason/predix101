@@ -54,7 +54,33 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 * Responsible for communicating with the industrial asset and Predix cloud
 * Can run local applications, such as edge analytics
 * Uses OSGi framework
-
+* Java only
+* Hardware agnostic, runs on anything that supports Linux or Windows
+* Communicates to cloud over web sockets
 
 ---
+
+# Predix Machine Architecture
+
+![Overview](assets/predix-machine-architecture.png)
+
+---
+
+# Machine Gateway
+
+* Provides M2M services to communicate between gateways and/or sensors
+* Communication protocols
+  * OPC-UA
+  * Modbus,
+  * MQTT
+* store and forward for intermittent connectivity
+
+---
+
+# Cloud / Mobile Gateway
+
+* Communication to Predix cloud
+* WebSocket Server service
+* REST APIs
+
 
