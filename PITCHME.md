@@ -30,3 +30,11 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 * Provide insights using analytics
 * Manage information access
 * \* Not intended for real-time (sub-second) systems
+* Use a microservices architecture
+* Follow guidelines for [12 Factor App](https://12factor.net/)
+
+---
+
+# Predix Components
+
+![Components](assets/PredixComponents.png)
