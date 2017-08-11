@@ -71,7 +71,7 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 * Provides M2M services to communicate between gateways and/or sensors
 * Communication protocols
   * OPC-UA
-  * Modbus,
+  * Modbus
   * MQTT
 * store and forward for intermittent connectivity
 
@@ -83,4 +83,62 @@ Predix is a Platform-as-a-Service (PaaS) that helps companies:
 * WebSocket Server service
 * REST APIs
 
+---
+
+# Predix Cloud
+
+* Global, secure cloud infrastructure
+* Meets regulartory standards (healthcare, aviation, etc.)
+* Deploy scalable solutions
+* Built on Cloud Foundry (open source PaaS)
+
+---
+
+![Dev Cycle](assets/devcycle.png)
+
+---
+
+# Orgs and Spaces
+
+* org is an development account
+* org includes 1 or more spaces
+* spaces provide access to a shared location
+* Ex: DevSpace, ProdSpace, TestSpace
+
+---
+
+# Predix Services
+
+* Provides a service marketplace (Heroku addons)
+* [Catalog of Services](https://www.predix.io/catalog/services)
+
+---
+
+# Security Services
+
+### UAA - User Account & Authentication Service
+
+* authorize apps to act on behalf of users
+* authenticate users
+* can integrate with 3rd-party identity providers for SSO
+
+### ACS - Access Control Services
+
+* fine-grained authorization
+* attribute management
+* policy management
+* policy evaluation
+
+---
+
+# Data Management Services
+
+* Asset Service - Store/retrive asset properties (Cassandra)
+* Time Series Store - manage, ingest, store, analyze
+* Blobstore - large byte arrays (S3)
+* Database as a service - PostgreSQL
+* Key-value Store - Redis
+* Message Queue (AMQP) - RabbitMQ
+
+---
 
